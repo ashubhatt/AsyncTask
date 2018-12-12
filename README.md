@@ -94,8 +94,9 @@ Sample source files demonstrating the aforementioned classes are provided in the
 To build the source code, follow the steps:
 
 ```
-mkdir <Path_To_AsyncTask>/ build
-cd <Path_To_AsyncTask>/ build
+git clone https://github.com/ashubhatt/AsyncTask.git
+cd AsyncTask
+mkdir build && cd build
 cmake ../
 make -j4
 ```
